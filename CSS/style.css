@@ -1,0 +1,83 @@
+* {
+    font-family: 'Oswald', sans-serif;  
+    text-align: center;
+    box-sizing: border-box;
+} /* The '*' sign means it's a universal CSS tag, meaning it applies to everything */
+
+body {
+    height: 100vh; /* 100VH means it uses 100% of the height of the display */
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 140px 1fr 60px; /* Grid template allows you to design content with columns. */
+    grid-template-columns: 1fr;  /* Right now I don't really understand the grid part*/
+    grid-template-areas:        /* I'll research grids, flexboxes and stuff later at the end of the course.*/
+    "header header"
+    "main main"
+    "footer footer";
+}
+
+header {
+    grid-area: header;
+    background: radial-gradient(circle, #1867c0, #063061);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    box-shadow: inset 0px 5px 6px rgba(0,0,0,0.5);
+    z-index: 1;
+    position: sticky;
+    top: 0px;
+}
+
+header > h1 {
+    margin: 0px;
+    font-weight: 300;
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+}
+header > h2 {
+    margin: 0px;
+    font-weight: 200;
+    font-size: 1.6rem;
+}
+main {
+    grid-area: main;
+    height: calc(100vh - 180px);
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.content {
+    position: center;
+    border-radius: 5px;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: #fcfcfc;
+    box-shadow:  0px 0px 10px rgba(0,0,0,0.3);
+}
+
+footer {
+    grid-area: footer;
+    height: 80px;
+    background-color: #ffffff;
+    font-weight: 500;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-right: 20px;
+    color: #313334;
+    letter-spacing: 1.5px;
+    /*position: sticky;
+    bottom: 0px; */
+}
+
+#message {
+    color: grey;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    margin: 0px 120px 0px 0px;
+}
