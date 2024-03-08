@@ -1,6 +1,5 @@
 * {
     font-family: 'Oswald', sans-serif;  
-    text-align: center;
     box-sizing: border-box;
 } /* The '*' sign means it's a universal CSS tag, meaning it applies to everything */
 
@@ -18,17 +17,18 @@ body {
 
 header {
     grid-area: header;
-    background: radial-gradient(circle, #1867c0, #063061);
+    background: radial-gradient(circle, #163570 1%, #171a31 85%);
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding-bottom: 10px;
-    box-shadow: inset 0px 5px 6px rgba(0,0,0,0.5);
+    box-shadow: 0px 5px 6px rgba(0,0,0,0.9);
     z-index: 1;
-    position: sticky;
+    /*position: sticky;*/
     top: 0px;
+    border: solid 1px #4e5253;
 }
 
 header > h1 {
@@ -37,11 +37,13 @@ header > h1 {
     font-size: 2.8rem;
     letter-spacing: 2px;
 }
+
 header > h2 {
     margin: 0px;
     font-weight: 200;
     font-size: 1.6rem;
 }
+
 main {
     grid-area: main;
     height: calc(100vh - 180px);
@@ -55,7 +57,61 @@ main {
     height: 100%;
     overflow-y: scroll;
     background-color: #fcfcfc;
-    box-shadow:  0px 0px 10px rgba(0,0,0,0.3);
+    box-shadow:  0px 0px 10px rgba(0,0,0,0.6);
+    padding: 20px;
+}
+
+.modules {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.module {
+    flex-basis: 30%;
+    margin-bottom: 30px;
+    border: solid 2px rgb(110, 110, 110);
+    border-radius: 10px;
+}
+
+.module > h3 {
+    margin: 0px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background: linear-gradient(170deg, #164070 35%, #171a31 56%);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.module > ul {
+    margin: 0px;
+    padding: 5px;
+    list-style-type: none;
+}
+
+.module > ul > li {
+    padding: 10px;
+    font-size: 1.3rem;
+    padding-left: 60px;
+    cursor: pointer;
+}
+
+.module > ul > li > a {
+    display: flex;
+    text-decoration: none;
+    color: #222;
+}
+
+.module > ul > li:hover {
+    background-color: #EEE;
+    border-radius: 5px;
+}
+
+.module.cor {
+    
 }
 
 footer {
