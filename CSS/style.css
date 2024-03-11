@@ -110,9 +110,32 @@ main {
     border-radius: 5px;
 }
 
-.module.cor {
-    
-}
+.module.green { border: solid 2px rgb(4, 96, 75); }
+.module.green > h3 { background: linear-gradient(170deg, #3b6c3c 35%, #193117 56%); }
+
+.module.red { border: solid 2px rgb(97, 3, 3); }
+.module.red > h3 { background: linear-gradient(170deg, #772727 35%, #311717 56%); }
+
+.module.blue { border: solid 2px rgb(6, 83, 113); }
+.module.blue > h3 { background: linear-gradient(170deg, #3b5b6c 35%, #172a31 56%); }
+
+.module.purple { border: solid 2px rgb(51, 6, 115); }
+.module.purple > h3 { background: linear-gradient(170deg, #543b6c 35%, #231731 56%); }
+
+.module.orange { border: solid 2px rgb(115, 73, 6); }
+.module.orange > h3 { background: linear-gradient(170deg, #a2690c 35%, #5b3504 56%); }
+
+.module.darkgreen { border: solid 2px rgb(3, 60, 27); }
+.module.darkgreen > h3 { background: linear-gradient(170deg, #324209 35%, #01200d 56%); }
+
+.module.magenta { border: solid 2px rgb(94, 11, 104); }
+.module.magenta > h3 { background: linear-gradient(170deg, #7c1a74 35%, #390532 56%); }
+
+.module.dark { border: solid 2px rgb(63, 63, 63); }
+.module.dark > h3 { background: linear-gradient(170deg, #6a6a6a 35%, #323232 56%); }
+
+.module.yellow { border: solid 2px rgb(114, 109, 12); }
+.module.yellow > h3 { background: linear-gradient(170deg, #94821f 35%, #4e4b05 56%); }
 
 footer {
     grid-area: footer;
