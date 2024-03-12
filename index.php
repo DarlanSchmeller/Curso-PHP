@@ -26,7 +26,7 @@
                 <div class="module green">
                     <h3>Módulo 01 - Básico</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
+                        <li><a href="exercicio.php">Exercício A</a></li>
                         <li><a href="#">Exercício B</a></li>
                         <li><a href="#">Exercício C</a></li>
                     </ul>
@@ -107,7 +107,7 @@
         <div>
            <p id="message">Estudos por Darlan Schmeller</p> 
         </div>
-        MMTecnologia © 2024
+        MMTecnologia © <?=  date('Y'); ?>
     </footer>
 
 </body>

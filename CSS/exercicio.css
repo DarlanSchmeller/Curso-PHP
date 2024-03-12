@@ -1,0 +1,34 @@
+body.exercise {
+    grid-template-rows: 120px 60px 1fr 60px;
+    grid-template-areas: 
+    "header" 
+    "navigation" 
+    "main" 
+    "footer";
+}
+
+main {
+    height: calc(100vh - 240px)
+}
+
+.navigation {
+    grid-area: navigation;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #555;
+}
+
+.navigation > a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.3rem;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,1);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+.navigation > a.green {background: linear-gradient(170deg, #537859 35%, #032c10 56%); } 
+.navigation > a.red {background: linear-gradient(170deg, #6e4b4b 35%, #311717 56%); }
