@@ -32,3 +32,15 @@ main {
 
 .navigation > a.green {background: linear-gradient(170deg, #537859 35%, #032c10 56%); } 
 .navigation > a.red {background: linear-gradient(170deg, #6e4b4b 35%, #311717 56%); }
+
+.content {
+    font-size: 2rem;
+}
+
+.content > .title  {
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #999;
+    margin-bottom: 20px
+}

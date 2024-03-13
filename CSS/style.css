@@ -59,6 +59,7 @@ main {
     background-color: #fcfcfc;
     box-shadow:  0px 0px 10px rgba(0,0,0,0.6);
     padding: 20px;
+    
 }
 
 .modules {
@@ -97,6 +98,9 @@ main {
     font-size: 1.3rem;
     padding-left: 60px;
     cursor: pointer;
+    display: flex;
+    justify-content: left;
+
 }
 
 .module > ul > li > a {

@@ -8,7 +8,7 @@
     <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 
 
@@ -26,9 +26,10 @@
                 <div class="module green">
                     <h3>Módulo 01 - Básico</h3>
                     <ul>
-                        <li><a href="exercicio.php">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li><a href="exercicio.php?dir=basico&file=ola">Olá PHP</a></li>
+                        <li><a href="exercicio.php?dir=basico&file=html">Integração HTML</a></li>
+                        <li><a href="exercicio.php?dir=basico&file=css">Integração CSS</a></li>
+                        <li><a href="exercicio.php?dir=basico&file=comentarios">Comentários PHP</a></li>
                     </ul>
                 </div>
                 <div class="module red">
@@ -105,7 +106,7 @@
 
     <footer>
         <div>
-           <p id="message">Estudos por Darlan Schmeller</p> 
+           <p id="message">Estudos por Darlan Schmeller</p>
         </div>
         MMTecnologia © <?=  date('Y'); ?>
     </footer>
