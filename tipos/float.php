@@ -25,7 +25,7 @@ echo var_dump(1.0), '</br>';
 echo var_dump(1.1), '</br>';
 ?>
 
-<p>Valor máximo e minimo do Float.</p>
+<p>Valor máximo e minimo do Float:</p>
 
 <?php
 echo PHP_FLOAT_MAX, '<br>';

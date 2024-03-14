@@ -17,7 +17,7 @@ var_dump(11);
 echo '<br>';
 ?>
 
-<p>Valor máximo e minimo do tipo INTEIRO.</p>
+<p>Valor máximo e minimo do tipo INTEIRO:</p>
 
 <?php
 echo PHP_INT_MAX, '<br>'; /* é possivel usar separação virgula
