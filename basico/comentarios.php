@@ -5,7 +5,11 @@
 echo '<small>';
 echo 'Olá ';
 echo 'Mundo!';
-echo '</small>';
+// echo 'Mundo!'; Estes são comentários. HTML
+/* echo 'Mundo!'; Este comentário e um comentário PHP, incrível. 
+Funciona em duas linhas. */
+
+/* Comentários PHP com /* são removidos do menu inspecionar do naveg. */
 ?>
 </h1>
 
@@ -21,6 +25,8 @@ echo '</small>';
 
 <!-- [text] are attributes you can create
 using css and can be assigned to any HTML element -->
+
+<!-- Comentários HTML aparecem no navegador via f12 -->
 
 <style>
     button {

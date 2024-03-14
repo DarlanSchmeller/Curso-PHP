@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso PHP</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="assets/CSS/style.css">
     <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,13 +30,14 @@
                         <li><a href="exercicio.php?dir=basico&file=html">Integração HTML</a></li>
                         <li><a href="exercicio.php?dir=basico&file=css">Integração CSS</a></li>
                         <li><a href="exercicio.php?dir=basico&file=comentarios">Comentários PHP</a></li>
+                        <li><a href="exercicio.php?dir=basico&file=desafio">Desafio PHP</a></li>
                     </ul>
                 </div>
                 <div class="module red">
-                    <h3>Módulo 02 - Básico</h3>
+                    <h3>Módulo 02 - Tipos Básicos</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
+                        <li><a href="exercicio.php?dir=tipos&file=inteiro">Inteiro</a></li>
+                        <li><a href="exercicio.php?dir=tipos&file=float">Float</a></li>
                         <li><a href="#">Exercício C</a></li>
                     </ul>
                 </div>

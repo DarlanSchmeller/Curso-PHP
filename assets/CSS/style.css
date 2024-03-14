@@ -58,19 +58,21 @@ main {
     overflow-y: scroll;
     background-color: #fcfcfc;
     box-shadow:  0px 0px 10px rgba(0,0,0,0.6);
-    padding: 20px;
-    
+    padding: 10px;
+
 }
 
 .modules {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    flex-direction: row;
 }
 
 .module {
     flex-basis: 30%;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     border: solid 2px rgb(110, 110, 110);
     border-radius: 10px;
 }
@@ -80,7 +82,7 @@ main {
     border-radius: 5px;
     color: #fff;
     font-weight: 300;
-    font-size: 1.5rem;
+    font-size: 1.41rem;
     padding: 10px 20px;
     background: linear-gradient(170deg, #164070 35%, #171a31 56%);
     border-bottom-left-radius: 0px;
@@ -89,18 +91,20 @@ main {
 
 .module > ul {
     margin: 0px;
-    padding: 5px;
+    padding: 10px;
     list-style-type: none;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    min-height: 300px;
 }
 
 .module > ul > li {
     padding: 10px;
     font-size: 1.3rem;
-    padding-left: 60px;
     cursor: pointer;
-    display: flex;
-    justify-content: left;
-
+    border-bottom: 1px solid black;
 }
 
 .module > ul > li > a {

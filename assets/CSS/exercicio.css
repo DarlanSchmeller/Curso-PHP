@@ -33,6 +33,10 @@ main {
 .navigation > a.green {background: linear-gradient(170deg, #537859 35%, #032c10 56%); } 
 .navigation > a.red {background: linear-gradient(170deg, #6e4b4b 35%, #311717 56%); }
 
+.navigation > a.green:hover {background: linear-gradient(170deg, #636161 35%, #363636 56%); } 
+.navigation > a.red:hover {background: linear-gradient(170deg, #636161 35%, #363636 56%); }
+
+
 .content {
     font-size: 2rem;
 }
