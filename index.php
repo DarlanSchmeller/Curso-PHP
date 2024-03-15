@@ -26,19 +26,32 @@
                 <div class="module green">
                     <h3>Módulo 01 - Básico</h3>
                     <ul>
-                        <li><a href="exercicio.php?dir=basico&file=ola">Olá PHP</a></li>
-                        <li><a href="exercicio.php?dir=basico&file=html">Integração HTML</a></li>
-                        <li><a href="exercicio.php?dir=basico&file=css">Integração CSS</a></li>
-                        <li><a href="exercicio.php?dir=basico&file=comentarios">Comentários PHP</a></li>
-                        <li><a href="exercicio.php?dir=basico&file=desafio">Desafio PHP</a></li>
+                        <li><a href="exercicio.php?dir=basico&file=ola">
+                            Olá PHP</a></li>
+                        <li><a href="exercicio.php?dir=basico&file=html">
+                            Integração HTML</a></li>
+                        <li><a href="exercicio.php?dir=basico&file=css">
+                            Integração CSS</a></li>
+                        <li><a href="exercicio.php?dir=basico&file=comentarios">
+                            Comentários PHP</a></li>
+                        <li><a href="exercicio.php?dir=basico&file=desafio">
+                            Desafio PHP</a></li>
                     </ul>
                 </div>
                 <div class="module red">
                     <h3>Módulo 02 - Tipos Básicos</h3>
                     <ul>
-                        <li><a href="exercicio.php?dir=tipos&file=inteiro">Inteiro</a></li>
-                        <li><a href="exercicio.php?dir=tipos&file=float">Float</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li><a href="exercicio.php?dir=tipos&file=inteiro">
+                            Inteiro</a></li>
+                        <li><a href="exercicio.php?dir=tipos&file=float">
+                            Float</a></li>
+                        <li><a href="exercicio.php?dir=tipos&file=aritmetica">
+                            Aritméticas</a></li>
+                        <li><a href="exercicio.php?dir=tipos&file=desafio_precedencia">Desafio Precedência</a></li>
+                        <li><a href="exercicio.php?dir=tipos&file=string">
+                            String</a></li>
+                        <li><a href="exercicio.php?dir=tipos&file=desafiostring">
+                            Desafio String</a></li>
                     </ul>
                 </div>
                 
