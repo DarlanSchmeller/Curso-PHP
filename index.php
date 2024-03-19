@@ -52,13 +52,17 @@
                             String</a></li>
                         <li><a href="exercicio.php?dir=tipos&file=desafiostring">
                             Desafio String</a></li>
+                        <li><a href="exercicio.php?dir=tipos&file=booleano">
+                            Booleano</a></li>
+                        <li><a href="exercicio.php?dir=tipos&file=conversoes">
+                            Conversões</a></li>
                     </ul>
                 </div>
                 
                 <div class="module blue">
-                    <h3>Módulo 03 - Básico</h3>
+                    <h3>Módulo 03 - Variáveis</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
+                        <li><a href="exercicio.php?dir=variaveis&file=basico">Básico</a></li>
                         <li><a href="#">Exercício B</a></li>
                         <li><a href="#">Exercício C</a></li>
                     </ul>
