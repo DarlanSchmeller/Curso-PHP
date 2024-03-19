@@ -65,12 +65,10 @@
                         <li><a href="exercicio.php?dir=variaveis&file=basico">
                             Básico
                         </a></li>
-                        <li><a href="#">
-                            Exercício B
+                        <li><a href="exercicio.php?dir=variaveis&file=desafioequacao">
+                            Desafio Equação
                         </a></li>
-                        <li><a href="#">
-                            Exercício C
-                        </a></li>
+                       
                     </ul>
                 </div>
                 <div class="module purple">

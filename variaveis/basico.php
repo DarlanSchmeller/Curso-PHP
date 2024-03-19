@@ -46,3 +46,5 @@ $vÂr42 = 'válido mãs não recomendado'; // Evitar acentos
 // $6var = 'invalido'
 // $%var7 = 'invalido'
 // $var8% = 'invalido'
+
+echo '<br>';
