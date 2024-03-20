@@ -2,10 +2,18 @@
 
 <?php 
 
-$partecima = (150-100);  //** 3;
-$partebaixo = 10; // ** 3
+$numA = (6 * (3 + 2)) ** 2;
+$denA = 3 * 2;
 
-$divisão = (50 ** 3) / (10 ** 3); 
-$resultado = $divisão;
+$numB = (1 - 5) * (2 - 7);
+$denB = 2;
+
+$superiorA = $numA / $denA;
+$superiorB = ($numB / $denB) ** 2;
+
+$superior = ($superiorA - $superiorB) ** 3;
+$inferior = 10 ** 3;
+
+$resultado = $superior / $inferior;
 
 print('O resultado da equação é: ' . $resultado) . ".";

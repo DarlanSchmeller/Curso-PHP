@@ -109,6 +109,7 @@ main {
 .module > ul > li > a {
     display: flex;
     text-decoration: none;
+    text-align: center;
     color: #222;
 }
 
