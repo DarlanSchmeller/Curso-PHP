@@ -95,6 +95,9 @@
                         <li><a href="exercicio.php?dir=controle&file=if_else">
                             If_Else
                         </a></li>
+                        <li><a href="exercicio.php?dir=controle&file=relacionais">
+                            Operadores Relacionais
+                        </a></li>
                     </ul>
                 </div>
 
