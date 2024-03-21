@@ -83,6 +83,9 @@
                         <li><a href="exercicio.php?dir=variaveis&file=valor_referencia">
                             Valor VS Referência
                         </a></li>
+                        <li><a href="exercicio.php?dir=variaveis&file=Constantes">
+                            Constantes
+                        </a></li>
                        
                     </ul>
                 </div>
