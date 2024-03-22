@@ -73,14 +73,14 @@ echo '<p class="title">
 </p>';
 
 
-echo 'Respectivamente comparação normal e comparação estrita. <br>';
+echo 'Comparação Estrita | === | abaixo.<br>';
 var_dump( 111 == '111'); // Verifica igualdade somente dos valores
 var_dump( 111 === '111'); // Verifica igualdade dos valores e do tipo
 var_dump( 111 != '111');  // Diferença normal
 var_dump( 111 !== '111');  // Diferença Estrita
 
 echo '<br><br>';
-echo 'Comparação padrão abaixo. <br>';
+echo 'Comparação Normal | == | abaixo. <br>';
 var_dump( 1 == 1);
 var_dump( 1 > 3);
 var_dump( 1 < 4);
