@@ -110,15 +110,27 @@
                         <li><a href="exercicio.php?dir=controle&file=operador_ternario">
                             Operador Ternário
                         </a></li>
+                        <li><a href="exercicio.php?dir=controle&file=switch">
+                            Switch
+                        </a></li>
+                        <li><a href="exercicio.php?dir=controle&file=desafio_switch">
+                            Desafio Switch
+                        </a></li>
                     </ul>
                 </div>
 
                 <div class="module orange">
-                    <h3>Módulo 05 - Básico</h3>
+                    <h3>Módulo 05 - Array</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li><a href="exercicio.php?dir=array&file=basico">
+                            Array 
+                        </a></li>
+                        <li><a href="exercicio.php?dir=array&file=mapa">
+                            Mapa 
+                        </a></li>
+                        <li><a href="exercicio.php?dir=array&file=desafio_index">
+                            Desafio Index 
+                        </a></li>
                     </ul>
                 </div>
                 <div class="module darkgreen">
