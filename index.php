@@ -134,14 +134,35 @@
                         <li><a href="exercicio.php?dir=array&file=desafio_meses">
                             Desafio Meses 
                         </a></li>
+                        <li><a href="exercicio.php?dir=array&file=operacoes_array">
+                            Operações com Array
+                        </a></li>
+                        <li><a href="exercicio.php?dir=array&file=desafio_sorteio">
+                            Desafio Sorteio
+                        </a></li>
+                        <li><a href="exercicio.php?dir=array&file=array_multidimensional">
+                            Array Multidimensional
+                        </a></li>
+                        <li><a href="exercicio.php?dir=array&file=arrays_constantes">
+                            Arrays Constantes
+                        </a></li>
+                        <li><a href="exercicio.php?dir=array&file=get">
+                            $_GET
+                        </a></li>
+                        <li><a href="exercicio.php?dir=array&file=post">
+                            $_POST
+                        </a></li>
+                        <li><a href="exercicio.php?dir=array&file=comparacao">
+                            Comparação entre Arrays
+                        </a></li>
                     </ul>
                 </div>
                 <div class="module darkgreen">
-                    <h3>Módulo 06 - Básico</h3>
+                    <h3>Módulo 06 - Repetições</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li><a href="exercicio.php?dir=repeticoes&file=for">
+                            Laço For
+                        </a></li>
                     </ul>
                 </div>
                 
