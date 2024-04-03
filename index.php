@@ -199,6 +199,30 @@
                         <li><a href="exercicio.php?dir=funcoes&file=desafio_palindromo">
                             Desafio Palíndromo
                         </a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=argumentos_variaveis">
+                           Argumentos Variáveis
+                        </a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=argumento_padrao">
+                           Argumento Padrão
+                        </a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=definindo_tipos">
+                           Definindo Tipos
+                        </a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=funcoes_anonimas">
+                           Funções Anónimas
+                        </a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=closure_callable">
+                           Closure & Callable
+                        </a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=recursividade">
+                           Recursividade
+                        </a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=desafio_recursividade">
+                           Desafio Recursividade
+                        </a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=retornando_funcao">
+                           Retornando Função
+                        </a></li>
                     </ul>
                 </div>
                 <div class="module dark">
