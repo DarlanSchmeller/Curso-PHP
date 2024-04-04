@@ -223,14 +223,26 @@
                         <li><a href="exercicio.php?dir=funcoes&file=retornando_funcao">
                            Retornando Função
                         </a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=map_filter">
+                           Map & Filter
+                        </a></li>
                     </ul>
                 </div>
                 <div class="module dark">
-                    <h3>Módulo 08 - Básico</h3>
+                    <h3>Módulo 08 - Orientação a Objetos</h3>
                     <ul>
-                        <li><a href="#">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li><a href="exercicio.php?dir=orientacaoobjetos&file=classe_objeto">
+                           Classe & Objeto Teoria
+                        </a></li>
+                        <li><a href="exercicio.php?dir=orientacaoobjetos&file=classe">
+                           Primeira Classe 
+                        </a></li>
+                        <li><a href="exercicio.php?dir=orientacaoobjetos&file=desafio_classe_data">
+                           Desafio Classe Data 
+                        </a></li>
+                        <li><a href="exercicio.php?dir=orientacaoobjetos&file=construtor_destrutor">
+                           Construtor & Destrutor
+                        </a></li>
                     </ul>
                 </div>
                 <div class="module yellow">
