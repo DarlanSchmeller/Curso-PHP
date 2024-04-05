@@ -243,6 +243,12 @@
                         <li><a href="exercicio.php?dir=orientacaoobjetos&file=construtor_destrutor">
                            Construtor & Destrutor
                         </a></li>
+                        <li><a href="exercicio.php?dir=orientacaoobjetos&file=pilares">
+                        Pilares da OO: Teoria
+                        </a></li>
+                        <li><a href="exercicio.php?dir=orientacaoobjetos&file=heranca">
+                        Herança
+                        </a></li>
                     </ul>
                 </div>
                 <div class="module yellow">
