@@ -249,6 +249,18 @@
                         <li><a href="exercicio.php?dir=orientacaoobjetos&file=heranca">
                         Herança
                         </a></li>
+                        <li><a href="exercicio.php?dir=orientacaoobjetos&file=visibilidade">
+                        Visibilidade
+                        </a></li>
+                        <li><a href="exercicio.php?dir=orientacaoobjetos&file=static">
+                        Membro Estático
+                        </a></li>
+                        <li><a href="exercicio.php?dir=orientacaoobjetos&file=interface">
+                        Interface
+                        </a></li>
+                        <li><a href="exercicio.php?dir=orientacaoobjetos&file=classe_abstrata">
+                        Classe Abstrata
+                        </a></li>
                     </ul>
                 </div>
                 <div class="module yellow">
