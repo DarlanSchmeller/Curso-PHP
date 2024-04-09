@@ -261,6 +261,24 @@
                         <li><a href="exercicio.php?dir=orientacaoobjetos&file=classe_abstrata">
                         Classe Abstrata
                         </a></li>
+                        <li><a href="exercicio.php?dir=orientacaoobjetos&file=desafio_erros">
+                        Desafio dos 7 Erros
+                        </a></li>
+                        <li><a href="exercicio.php?dir=orientacaoobjetos&file=final">
+                        Modificador Final
+                        </a></li>
+                        <li><a href="exercicio.php?dir=orientacaoobjetos&file=trait_01">
+                        Traits #01
+                        </a></li>
+                        <li><a href="exercicio.php?dir=orientacaoobjetos&file=trait_02">
+                        Traits #02
+                        </a></li>
+                        <li><a href="exercicio.php?dir=orientacaoobjetos&file=metodos_magicos">
+                        Métodos Mágicos
+                        </a></li>
+                        <li><a href="exercicio.php?dir=orientacaoobjetos&file=polimorfismo">
+                        Polimorfismo
+                        </a></li>
                     </ul>
                 </div>
                 <div class="module yellow">

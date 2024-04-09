@@ -15,6 +15,7 @@ print('<p class="title">
         <b>Public:</b> // Visível para fora do objeto.
         <br>
         <b>Protected:</b>  // Visivel para dentro do objeto e por herança.
+        <br>
         <b>Private:</b>  Visivel somente dentro do objeto.
 </p>');
 
