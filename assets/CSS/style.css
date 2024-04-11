@@ -145,6 +145,12 @@ main {
 .module.yellow { border: solid 2px rgb(114, 109, 12); }
 .module.yellow > h3 { background: linear-gradient(170deg, #94821f 35%, #4e4b05 56%); }
 
+.module.colorful { border: solid 2px rgb(114, 12, 12); }
+.module.colorful > h3 { background: linear-gradient(170deg, #942d1f 35%, #5d0707 56%); }
+
+.module.greyish1 { border: solid 2px rgb(179, 176, 143); }
+.module.greyish1 > h3 { background: linear-gradient(170deg, #a7ad7c 35%, #565448 56%); }
+
 footer {
     grid-area: footer;
     height: 80px;

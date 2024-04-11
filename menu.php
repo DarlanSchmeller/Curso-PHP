@@ -280,4 +280,32 @@
             </a></li>
         </ul>
     </div>
+    <div class="module colorful">
+        <h3>Módulo 10 - Namespace</h3>
+        <ul>
+            <li><a href="exercicio.php?dir=namespace&file=basico">
+            Exemplo Básico
+            </a></li>
+            <li><a href="exercicio.php?dir=namespace&file=sub_namespace">
+            Sub-Namespaces
+            </a></li>
+            <li><a href="exercicio.php?dir=namespace&file=use_as">
+            Use/As
+            </a></li>
+        </ul>
+    </div>
+    <div class="module greyish1">
+        <h3>Módulo 11 - Tratamento de Erro</h3>
+        <ul>
+            <li><a href="exercicio.php?dir=namespace&file=basico">
+            Exemplo Básico
+            </a></li>
+            <li><a href="exercicio.php?dir=namespace&file=sub_namespace">
+            Sub-Namespaces
+            </a></li>
+            <li><a href="exercicio.php?dir=namespace&file=use_as">
+            Use/As
+            </a></li>
+        </ul>
+    </div>
 </nav>
