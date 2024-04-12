@@ -297,14 +297,17 @@
     <div class="module greyish1">
         <h3>Módulo 11 - Tratamento de Erro</h3>
         <ul>
-            <li><a href="exercicio.php?dir=namespace&file=basico">
-            Exemplo Básico
+            <li><a href="exercicio.php?dir=tratamento_de_erros&file=try_catch">
+            Try/Catch
             </a></li>
-            <li><a href="exercicio.php?dir=namespace&file=sub_namespace">
-            Sub-Namespaces
+            <li><a href="exercicio.php?dir=tratamento_de_erros&file=erros_personalizados">
+            Erros Personalizados
             </a></li>
-            <li><a href="exercicio.php?dir=namespace&file=use_as">
-            Use/As
+            <li><a href="exercicio.php?dir=tratamento_de_erros&file=desafio_intdiv">
+            Desafio Intdiv
+            </a></li>
+            <li><a href="exercicio.php?dir=tratamento_de_erros&file=gerenciador_erro">
+            Error Handler
             </a></li>
         </ul>
     </div>
