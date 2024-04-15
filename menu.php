@@ -311,4 +311,15 @@
             </a></li>
         </ul>
     </div>
+    <div class="module greyish2">
+        <h3>Módulo 12 - Sessão & Cookies</h3>
+        <ul>
+            <li><a href="exercicio.php?dir=sessao_cookies&file=sessao_cookies">
+            Sessão
+            </a></li>
+            <li><a href="exercicio.php?dir=sessao_cookies&file=gerenciando_sessao">
+            Gerenciando Sessão
+            </a></li>
+        </ul>
+    </div>
 </nav>
