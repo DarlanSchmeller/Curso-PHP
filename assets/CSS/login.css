@@ -5,6 +5,7 @@ body.login {
     "header"
     "main"
     "footer";
+    padding: 0px;
 }
 
 body .login .main {
@@ -34,4 +35,20 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.erros {
+    background-color: #ff4500;
+    padding: 3px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+.erros > p {
+    padding: 5px;
+    margin: 0px
 }

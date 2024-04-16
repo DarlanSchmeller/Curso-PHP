@@ -62,13 +62,13 @@ if ($_POST['email']) {
         <div class="content">
             <h3>Identifique-se</h3>
                 <?php
-                    if ($_SESSION['erros]']) { 
+                    if ($_SESSION['erros']) { 
                  ?> 
                     <div class="erros">
                     <?php 
                     foreach ($_SESSION['erros'] as $erro) {
-                    ?>
-                        <p>
+                    ?> 
+                        <p> <!--  Usa um foreach para navegar/imprimir cada item do objeto de erros -->
                            <?= $erro ?> 
                         </p>
                     <?php 

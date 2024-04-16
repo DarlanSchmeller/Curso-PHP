@@ -27,7 +27,8 @@ if (!$_SESSION['usuario']) {
     </header>
 
     <nav class="navigation">
-    
+        <span class="usuario">Usuário: <?= $_SESSION['usuario'] ?></span>
+        <a href="logout.php" class="sair">Sair</a>
     </nav>
 
     <main>

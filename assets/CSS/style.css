@@ -45,7 +45,7 @@ header > h2 {
 }
 
 main {
-    grid-area: main;
+    grid-area: "main";
     height: calc(100vh - 240px);
     background-color: #f0f0f0;
     padding: 20px;
@@ -197,3 +197,15 @@ footer {
     padding: 5px 10px;
     margin-right: 10px;
 }
+
+span.usuario {
+    flex-grow: 1;
+    justify-self: flex-start;
+    color: #eee;
+    padding-left: 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.navigation > a.sair {background: linear-gradient(170deg, #c42929 35%, #691313 56%); }
+.navigation > a.sair:hover {background: linear-gradient(170deg, #6d1c1c 35%, #512323 56%); }
