@@ -1,5 +1,11 @@
-<?php
+<?php // Verifica se existe usuarios nos cookies, se não existe usuario
+// Redireciona automaticamente para a tela de login.
 session_start();
+
+if($_COOKIE['usuario']) {
+    $_SESSION['usuario'] = $_COOKIE['usuario'];
+}
+
 if (!$_SESSION['usuario']) {
     header('Location: login.php');
 }

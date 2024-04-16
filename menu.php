@@ -320,6 +320,17 @@
             <li><a href="exercicio.php?dir=sessao_cookies&file=gerenciando_sessao">
             Gerenciando Sessão
             </a></li>
+            <li><a href="exercicio.php?dir=sessao_cookies&file=cookies">
+            Cookies
+            </a></li>
+        </ul>
+    </div>
+    <div class="module blue">
+        <h3>Módulo 13 - API</h3>
+        <ul>
+            <li><a href="exercicio.php?dir=api&file=datas_01">
+            Datas #01
+            </a></li>
         </ul>
     </div>
 </nav>

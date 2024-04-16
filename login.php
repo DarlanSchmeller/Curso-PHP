@@ -26,6 +26,8 @@ if ($_POST['email']) {
         if ($emailValido && $senhaValida) {
             $_SESSION['erros'] = null;
             $_SESSION['usuario'] = $usuario['nome'];
+            $exp = time() + 60 * 60 * 24 * 30; // Tempo de expiração Cookie
+            setcookie('usuario', $usuario['nome'], $exp);
             header('Location: index.php');
         }
     }
@@ -60,7 +62,7 @@ if ($_POST['email']) {
 
     <main>
         <div class="content">
-            <h3>Identifique-se</h3>
+            <h3>Login</h3>
                 <?php
                     if ($_SESSION['erros']) { 
                  ?> 
@@ -81,12 +83,12 @@ if ($_POST['email']) {
         <form action="#" method="post">
             <div>
                 <label for="email">E-mail</label>
-                <input type="email" name="email" id="email">
+                <input type="email" class="label1" name="email" id="email">
             </div>
 
             <div>
                 <label for="senha">Senha</label>
-                <input type="password" name="senha" id="senha">
+                <input type="password" class="label1" name="senha" id="senha">
             </div>
             <button>Entrar</button>
         </form>

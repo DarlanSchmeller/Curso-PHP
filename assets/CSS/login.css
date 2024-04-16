@@ -28,6 +28,9 @@ button {
     color: #fff;
     background-color: #414346;
     border-radius: 5px;
+    margin-left: 40%;
+    align-self: center;
+    cursor: pointer;
 }
 
 .content {
@@ -51,4 +54,14 @@ button {
 .erros > p {
     padding: 5px;
     margin: 0px
+}
+
+.label1 {
+    border-radius: 5px;
+    background-color: rgb(247, 247, 247);
+    box-shadow: inset rgba(109, 106, 106, 0.512) 0px 0px 3px 3px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
 }
