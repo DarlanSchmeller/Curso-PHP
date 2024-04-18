@@ -343,6 +343,21 @@
             <li><a href="exercicio.php?dir=api&file=upload">
             Upload de Arquivos
             </a></li>
+            <li><a href="exercicio.php?dir=api&file=download">
+            Download de Arquivos
+            </a></li>
+            <li><a href="exercicio.php?dir=api&file=imagens">
+            Desafio Imagens
+            </a></li>
+        </ul>
+    </div>
+    <div class="module yellow">
+        <h3>Módulo 14 - Formulário</h3>
+        <ul>
+            <li><a href="exercicio.php?dir=formulario&file=formulario">
+            Formulário Básico
+            </a></li>
+           
         </ul>
     </div>
 </nav>

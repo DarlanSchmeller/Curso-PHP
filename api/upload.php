@@ -8,15 +8,15 @@ echo '<br>';
 print_r($_GET);
 
 if($_FILES && $_FILES['arquivo']) {
-    $pastaUpload = '/Users/mmtecnologia/mesa/';
+    $pastaUpload = '/Users/mmtecnologia/arquivoupload/';
     $nomeArquivo = $_FILES['arquivo']['name'];
-    $arquivo = $pastaUpload . $nomeArquivo;
-    $tmp = $_FILES['arquivo']['tmp_name'];
+    $arquivo = $pastaUpload . $nomeArquivo; // basicamente usa um input de arquivo e usamos
+    $tmp = $_FILES['arquivo']['tmp_name']; // o objeto $_FILES para armazenar
 
-    if (move_uploaded_file($tmp, $arquiovo)) {
+    if (move_uploaded_file($tmp, $arquivo)) { // Usamos essa função para mover arquivos.
         echo "<br> Arquivo válido e enviado com sucesso.";
     } else {
-        echo '<br> Arquivo inválido.';
+        echo '<br> Erro no upload de arquivo.';
     }
 }
 ?>

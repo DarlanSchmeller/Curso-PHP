@@ -29,6 +29,7 @@ header {
     /*position: sticky;*/
     top: 0px;
     border: solid 1px #4e5253;
+    text-align: center;
 }
 
 header > h1 {
@@ -166,16 +167,18 @@ footer {
     padding-right: 20px;
     color: #313334;
     letter-spacing: 1.5px;
+    margin: 0;
+    text-align: center;
     /*position: sticky;
     bottom: 0px; */
 }
 
 #message {
     color: grey;
-    text-align: left;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 300;
-    margin: 0px 120px 0px 0px;
+    padding: 0px 120px 0px 0px;
 }
 
 

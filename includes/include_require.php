@@ -27,7 +27,7 @@ print('<p class="title">
 ini_set('display_errors', 1);
 
 echo '<b>// Usando Include com arquivo inexistente.</b> <br>';
-include('arquivo_inexistente.php <br>');
+include('arquivo_inexistente.php');
 
 echo '<hr>';
 
