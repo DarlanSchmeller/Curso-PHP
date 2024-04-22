@@ -56,6 +56,9 @@ if(count($_POST) > 0) { // Count() conta a quantidade de valores, se for maior q
     if(!filter_var($_POST["filhos"], FILTER_VALIDATE_INT, $filhosConfig) && $_POST['filhos'] != 0) { 
         $erros['filhos'] = 'Quantid. Filhos inválida. (0/20)';
     }
+    if(!filter_var($_POST["filhos"], FILTER_VALIDATE_INT, $filhosConfig) && $_POST['filhos'] == null ) { 
+        $erros['filhos'] = 'Quantid. Filhos inválida. (0/20)';
+    }
     
     $salarioConfig = ['options' => ['decimal' => ',']];
     if (!filter_var($_POST['salario'], FILTER_VALIDATE_FLOAT, $salarioConfig)) {

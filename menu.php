@@ -357,7 +357,29 @@
             <li><a href="exercicio.php?dir=formulario&file=formulario">
             Formulário Básico
             </a></li>
-           
+        </ul>
+    </div>
+    <div class="module purple">
+        <h3>Módulo 15 - Banco de Dados</h3>
+        <ul>
+            <li><a href="exercicio.php?dir=db&file=criar_banco">
+            Criar Banco
+            </a></li>
+            <li><a href="exercicio.php?dir=db&file=criar_tabela">
+            Criar Tabela
+            </a></li>
+            <li><a href="exercicio.php?dir=db&file=inserir_1">
+            Inserir Registro #01
+            </a></li>
+            <li><a href="exercicio.php?dir=db&file=consultar">
+            Consultar Registros
+            </a></li>
+            <li><a href="exercicio.php?dir=db&file=excluir1">
+            Excluir Registros #01
+            </a></li>
+            <li><a href="exercicio.php?dir=db&file=excluir2">
+            Excluir Registros #02
+            </a></li>
         </ul>
     </div>
 </nav>
