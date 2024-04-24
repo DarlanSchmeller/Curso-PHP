@@ -20,7 +20,7 @@ if($_GET['codigo']) {
         if($resultado->num_rows > 0) {
             $dados = $resultado->fetch_assoc();
             if($dados['nascimento']) {
-                $dt = new DateTime($dados["nascimento"]);
+                $dt = new DateTime($dados['nascimento']);
                 $dados['nascimento'] = $dt->format('d/m/Y');
             }
         }
